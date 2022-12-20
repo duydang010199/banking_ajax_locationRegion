@@ -1,0 +1,19 @@
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<th:block th:fragment="header">
+  <div class="head">
+    <div class="row">
+      <div class="col-sm-5">
+        <h1>List of customers</h1>
+      </div>
+      <div class="col-sm-7">
+        <button class="btn btn-outline-light" title="Hello" data-bs-toggle="modal"
+                data-bs-target="#modalCreateCustomer" id="btnShowCreateModal">
+          <i class="fa-solid fa-square-plus"></i> Add New Customer
+        </button>
+        <a class="btn btn-outline-light" href="/transfers">
+          <i class="fa-solid fa-clock-rotate-left"></i>Transfer money Information
+        </a>
+      </div>
+    </div>
+  </div>
+</th:block>
